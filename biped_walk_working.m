@@ -1,7 +1,7 @@
 clc
 clear all;
 close all;
-
+% x-axis: forward motion, y-axis: verticle motion
 L_shin = 5; % shin length (length: hip to foot). change this according to the urdf
 lim = 0.5; % stride length (radius of swing foot). keep this 1/10th of the shin length
 x_base = 0; y_base = 0;
